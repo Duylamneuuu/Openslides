@@ -1,0 +1,39 @@
+# Default theme. Be Vietnam Pro covers Vietnamese diacritics.
+# Anton is only for short Latin display text (a big number, a section index).
+# The builder switches a run to Be Vietnam Pro when the text has diacritics.
+name: default
+fonts:
+  body: "Be Vietnam Pro SemiBold"
+  body_bold: false
+  heading: "Be Vietnam Pro"
+  heading_bold: true
+  display: "Anton"
+  display_bold: false
+  vietnamese_fallback: "Be Vietnam Pro SemiBold"
+  display_supports_vietnamese: false
+colors:
+  # Each text color below clears 4.5:1 on the surface it is meant for.
+  bg: "F4F0E8"
+  ink: "1C1915"
+  accent: "8C3A1E"          # text and rules on bg
+  accent_on_dark: "E7A07A" # text on inverse
+  panel: "FFFCF8"
+  inverse: "1C1915"
+  on_inverse: "F4F0E8"
+sizes_pt:
+  cover_title: 48
+  title: 36
+  section_title: 40
+  section_kicker: 56
+  column_title: 32
+  body: 28
+  kicker: 24
+  big_number: 108
+  caption: 24
+  source: 24
+  quote: 32
+spacing_in:
+  margin_x: 0.7
+  margin_y: 0.46
+  bullet_gap: 0.18
+  canva_extra_in: 0
