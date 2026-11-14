@@ -1,0 +1,93 @@
+# Neutral layout tour. Replace every line before you present it.
+# Layouts exercised here: cover, section, bullets, image-left, big-number,
+# comparison, quote, sources. image-right and closing use the same builder.
+title: Give a short briefing
+theme: theme-default.yaml
+slides:
+  - layout: cover
+    kicker: A neutral example
+    title: "Give a short briefing\npeople can follow"
+    subtitle: "One job per slide, in plain sentences,\nwith a source for every figure."
+    notes: |
+      Tell the room what they will be able to do when you finish.
+      This deck is a layout sample. Replace every line before you present it.
+
+  - layout: section
+    kicker: "01"
+    title: Decide the job of the slide
+    notes: |
+      Say the job out loud. If it takes two sentences, it is two slides.
+
+  - layout: bullets
+    title: Write the point in one sentence
+    bullets:
+      - label: One job
+        text: Say the single thing this slide is for, in words a listener can repeat.
+      - label: Plain words
+        text: Use a full everyday sentence, and skip slogans and stacked clauses.
+      - label: Short list
+        text: Stop at four points, then move the next idea onto its own slide.
+      - label: Notes
+        text: Put timing, asides, and extra detail in the notes, not in the type.
+    notes: |
+      Read one bullet at a time. Do not add a fifth point to this slide.
+
+  - layout: image-left
+    title: Show the real thing
+    image: ../examples/assets/stand-in.png
+    image_label: Stand-in shape. Replace with a photograph of the object.
+    bullets:
+      - label: Real photo
+        text: Show an object, not a person.
+      - label: Why it is here
+        text: Use the picture to prove the point.
+    notes: |
+      Swap the stand-in shape for a real photo of the object or the place.
+      Do not use a generated image of a person.
+
+  - layout: big-number
+    number: "4"
+    label: points on a slide, at most
+    caption: This is a writing limit, not a measured result. Replace it with a sourced figure when you have one.
+    notes: |
+      Do not invent a statistic to fill this layout.
+      Four points is the rule in the writing guide, not a study result.
+
+  - layout: comparison
+    title: Fix the slide before you shrink the type
+    left:
+      title: Hard to read
+      bullets:
+        - label: Tiny type
+          text: The back row cannot read it.
+        - label: Long pile
+          text: Too many ideas hide the one point.
+    right:
+      title: Easy to read
+      bullets:
+        - label: Body size
+          text: Keep the body large enough to read.
+        - label: One idea
+          text: Move extra points to the next slide.
+    notes: |
+      Ask which column the current draft sits in, then fix that cause on every slide.
+
+  - layout: quote
+    quote: "Mỗi ý là một câu đủ nghĩa và giữ đủ dấu tiếng Việt."
+    attribution: Vietnamese diacritic check. Replace this with a real quotation and name the source.
+    notes: |
+      Render the deck and read this line.
+      Broken marks mean the font does not cover Vietnamese.
+
+  - layout: sources
+    title: Sources
+    sources:
+      - label: Plain language guidelines
+        url: https://www.plainlanguage.gov/
+      - label: Be Vietnam Pro
+        url: https://fonts.google.com/specimen/Be+Vietnam+Pro
+      - label: Anton
+        url: https://fonts.google.com/specimen/Anton
+    notes: |
+      Keep a link only when the deck actually uses that source.
+      Drop the font links if the talk never mentions the fonts.

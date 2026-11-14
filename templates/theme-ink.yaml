@@ -1,0 +1,36 @@
+# Alternate theme: dark paper, same type. A second art direction, not a second brand.
+name: ink
+fonts:
+  body: "Be Vietnam Pro SemiBold"
+  body_bold: false
+  heading: "Be Vietnam Pro"
+  heading_bold: true
+  display: "Anton"
+  display_bold: false
+  vietnamese_fallback: "Be Vietnam Pro SemiBold"
+  display_supports_vietnamese: false
+colors:
+  bg: "221F1B"
+  ink: "F4F0E8"
+  accent: "E7A07A"
+  accent_on_dark: "E7A07A"
+  panel: "2E2924"
+  inverse: "141210"
+  on_inverse: "F4F0E8"
+sizes_pt:
+  cover_title: 48
+  title: 36
+  section_title: 40
+  section_kicker: 56
+  column_title: 32
+  body: 28
+  kicker: 24
+  big_number: 108
+  caption: 24
+  source: 24
+  quote: 32
+spacing_in:
+  margin_x: 0.7
+  margin_y: 0.46
+  bullet_gap: 0.18
+  canva_extra_in: 0
